@@ -19,6 +19,17 @@
 		31822E5118D41DC7008F56E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31822E3918D41DC7008F56E1 /* UIKit.framework */; };
 		31822E5918D41DC7008F56E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31822E5718D41DC7008F56E1 /* InfoPlist.strings */; };
 		31822E5B18D41DC7008F56E1 /* TaskApp1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31822E5A18D41DC7008F56E1 /* TaskApp1Tests.m */; };
+		31822E6C18D41DEE008F56E1 /* navigationBackground-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 31822E6518D41DEE008F56E1 /* navigationBackground-7.png */; };
+		31822E6D18D41DEE008F56E1 /* navigationBackground-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31822E6618D41DEE008F56E1 /* navigationBackground-7@2x.png */; };
+		31822E6E18D41DEE008F56E1 /* navigationBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 31822E6718D41DEE008F56E1 /* navigationBackground.png */; };
+		31822E6F18D41DEE008F56E1 /* navigationBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31822E6818D41DEE008F56E1 /* navigationBackground@2x.png */; };
+		31822E7018D41DEE008F56E1 /* nab_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 31822E6918D41DEE008F56E1 /* nab_bar.png */; };
+		31822E7118D41DEE008F56E1 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 31822E6A18D41DEE008F56E1 /* twitter.png */; };
+		31822E7218D41DEE008F56E1 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 31822E6B18D41DEE008F56E1 /* facebook.png */; };
+		31822E7618D41E18008F56E1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31822E7418D41E18008F56E1 /* MainViewController.m */; };
+		31822E7718D41E18008F56E1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31822E7518D41E18008F56E1 /* MainViewController.xib */; };
+		31822E7918D41E47008F56E1 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31822E7818D41E47008F56E1 /* Social.framework */; };
+		31822E7B18D41E4E008F56E1 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31822E7A18D41E4E008F56E1 /* Accounts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +59,18 @@
 		31822E5618D41DC7008F56E1 /* TaskApp1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaskApp1Tests-Info.plist"; sourceTree = "<group>"; };
 		31822E5818D41DC7008F56E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		31822E5A18D41DC7008F56E1 /* TaskApp1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskApp1Tests.m; sourceTree = "<group>"; };
+		31822E6518D41DEE008F56E1 /* navigationBackground-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationBackground-7.png"; sourceTree = "<group>"; };
+		31822E6618D41DEE008F56E1 /* navigationBackground-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationBackground-7@2x.png"; sourceTree = "<group>"; };
+		31822E6718D41DEE008F56E1 /* navigationBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationBackground.png; sourceTree = "<group>"; };
+		31822E6818D41DEE008F56E1 /* navigationBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationBackground@2x.png"; sourceTree = "<group>"; };
+		31822E6918D41DEE008F56E1 /* nab_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nab_bar.png; sourceTree = "<group>"; };
+		31822E6A18D41DEE008F56E1 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		31822E6B18D41DEE008F56E1 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		31822E7318D41E18008F56E1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		31822E7418D41E18008F56E1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
+		31822E7518D41E18008F56E1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = ../MainViewController.xib; sourceTree = "<group>"; };
+		31822E7818D41E47008F56E1 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		31822E7A18D41E4E008F56E1 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31822E7B18D41E4E008F56E1 /* Accounts.framework in Frameworks */,
+				31822E7918D41E47008F56E1 /* Social.framework in Frameworks */,
 				31822E3818D41DC7008F56E1 /* CoreGraphics.framework in Frameworks */,
 				31822E3A18D41DC7008F56E1 /* UIKit.framework in Frameworks */,
 				31822E3618D41DC7008F56E1 /* Foundation.framework in Frameworks */,
@@ -77,6 +102,7 @@
 		31822E2918D41DC7008F56E1 = {
 			isa = PBXGroup;
 			children = (
+				31822E6418D41DDC008F56E1 /* Images */,
 				31822E3B18D41DC7008F56E1 /* TaskApp1 */,
 				31822E5418D41DC7008F56E1 /* TaskApp1Tests */,
 				31822E3418D41DC7008F56E1 /* Frameworks */,
@@ -96,6 +122,8 @@
 		31822E3418D41DC7008F56E1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				31822E7A18D41E4E008F56E1 /* Accounts.framework */,
+				31822E7818D41E47008F56E1 /* Social.framework */,
 				31822E3518D41DC7008F56E1 /* Foundation.framework */,
 				31822E3718D41DC7008F56E1 /* CoreGraphics.framework */,
 				31822E3918D41DC7008F56E1 /* UIKit.framework */,
@@ -109,6 +137,9 @@
 			children = (
 				31822E4418D41DC7008F56E1 /* AppDelegate.h */,
 				31822E4518D41DC7008F56E1 /* AppDelegate.m */,
+				31822E7318D41E18008F56E1 /* MainViewController.h */,
+				31822E7418D41E18008F56E1 /* MainViewController.m */,
+				31822E7518D41E18008F56E1 /* MainViewController.xib */,
 				31822E4718D41DC7008F56E1 /* Images.xcassets */,
 				31822E3C18D41DC7008F56E1 /* Supporting Files */,
 			);
@@ -142,6 +173,20 @@
 				31822E5718D41DC7008F56E1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31822E6418D41DDC008F56E1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				31822E6518D41DEE008F56E1 /* navigationBackground-7.png */,
+				31822E6618D41DEE008F56E1 /* navigationBackground-7@2x.png */,
+				31822E6718D41DEE008F56E1 /* navigationBackground.png */,
+				31822E6818D41DEE008F56E1 /* navigationBackground@2x.png */,
+				31822E6918D41DEE008F56E1 /* nab_bar.png */,
+				31822E6A18D41DEE008F56E1 /* twitter.png */,
+				31822E6B18D41DEE008F56E1 /* facebook.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +264,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31822E6E18D41DEE008F56E1 /* navigationBackground.png in Resources */,
+				31822E7118D41DEE008F56E1 /* twitter.png in Resources */,
+				31822E7018D41DEE008F56E1 /* nab_bar.png in Resources */,
+				31822E6C18D41DEE008F56E1 /* navigationBackground-7.png in Resources */,
+				31822E7218D41DEE008F56E1 /* facebook.png in Resources */,
 				31822E4018D41DC7008F56E1 /* InfoPlist.strings in Resources */,
+				31822E6D18D41DEE008F56E1 /* navigationBackground-7@2x.png in Resources */,
+				31822E7718D41E18008F56E1 /* MainViewController.xib in Resources */,
+				31822E6F18D41DEE008F56E1 /* navigationBackground@2x.png in Resources */,
 				31822E4818D41DC7008F56E1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31822E4618D41DC7008F56E1 /* AppDelegate.m in Sources */,
+				31822E7618D41E18008F56E1 /* MainViewController.m in Sources */,
 				31822E4218D41DC7008F56E1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
